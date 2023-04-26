@@ -11,3 +11,4 @@ public class AccuracyExample1 {
 		System.out.println("사과 1개에서 남은 양: " + result);
 	}
 }
+  
