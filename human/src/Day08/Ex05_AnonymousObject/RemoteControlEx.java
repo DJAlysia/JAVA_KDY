@@ -9,7 +9,7 @@ public class RemoteControlEx {
 
 		RemoteControl rc = new RemoteControl() {
 
-			int volume;
+			int volume; 
 			
 			@Override
 			public void turnOn() {
