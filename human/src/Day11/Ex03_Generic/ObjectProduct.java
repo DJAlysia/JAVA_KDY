@@ -26,7 +26,7 @@ public class ObjectProduct {
 		Person person1 = new Person();
 		
 		person1.setObject( new Student() );
-		person1.setObject(new Developer() );
+		person1.setObject( new Developer() );
 		
 		Student student = (Student) person1.getObject();
 		
