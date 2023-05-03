@@ -1,4 +1,4 @@
-package part01.chap04;
+package part01.chap04.confirm;
 
 import java.util.Scanner;
 
