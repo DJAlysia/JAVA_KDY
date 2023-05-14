@@ -29,5 +29,5 @@ public class _1443 {
 		}
 		sc.close();
 	}
-	
+	 
 }
