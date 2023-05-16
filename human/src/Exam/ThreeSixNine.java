@@ -42,11 +42,14 @@ public class ThreeSixNine {
 			boolean one369 = (one == 3 || one == 6 || one == 9);	
 			boolean ten369 = (ten == 3 || ten == 6 || ten == 9);	
 			
-			if (one369 || ten369) {					
-				System.out.print("*");	
-				System.out.println();	
-			} else {					
-				System.out.println(i);	
+			if (one369 && ten369) {					
+				System.out.print("**");
+			} 
+			else if (one369 || ten369) {					
+				System.out.println("*");	
+			}
+			else {
+				System.out.println(i);
 			}
 		}
 		sc.close();
